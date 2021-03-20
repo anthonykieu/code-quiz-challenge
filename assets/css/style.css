@@ -17,3 +17,11 @@
 button{
     display:block
 }
+
+.yourScore{
+    display:none
+}
+
+.listScores{
+    display:none
+}

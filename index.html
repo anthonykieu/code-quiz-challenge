@@ -9,13 +9,13 @@
 </head>
 <body>
         <div class="topScores" id="highScores" >
-            <a href="topScores.html">
+            <a href="highscore.html">
                 View High Scores
             </a>
         </div>
         <div class="countdown" id="clock" >Time: 
             <span id="time">
-                60
+                20
             </span>
         </div>
 
@@ -40,7 +40,28 @@
             <p id="response">Incorrect</p>
         </section>
 
+        <section id="yourScore" class="yourScore">
+            <h1>All done!</h1>
+            <p>Your Total Score Is <span id="score">0</span>.</p>
+            <form id="initialsForm">
+                <p>Enter initials</p>
+                <input type="text" id="inputInitials" name="inputInitials">
+                <button id="yourScoreBtn" class="initialBtn" type="submit">Submit</button></p>
+ 
+            </form>
+        </section>
+
+        <section id="listScores" class="listScores">
+            <h1>High Scores</h1>
+            <div id="scorelist" class="scoreCenter">
+               <div id="initials"></div>
+               <div id="scoreDisplay"></div>
+            </div>
+            <button id="goBack" class="initialBtn">Go Back</button>
+            <button id="clearScores" class="clearScores">Clear High Scores</button>
+        </section>
 
         <script src="./assets/js/script.js"></script>
+        <script src="./assets/js/highscore.js"></script>
 </body>
 </html>
