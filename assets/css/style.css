@@ -1,5 +1,6 @@
 .start {
-    display:block
+    display:block;
+    text-align: center;
 }
 
 .quizQuestion {
@@ -24,4 +25,79 @@ button{
 
 .listScores{
     display:none
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    padding: 25px 25px;
+}
+
+.countdown{
+    text-align: center;
+}
+
+body {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;  
+    
+}
+
+section {
+    display:flex;
+    text-align: center;
+}
+
+.startBtn {
+    display:flex;
+    justify-content: center;
+}
+
+.answer {
+    display:flex;
+    justify-content: center;
+    margin-right: 10px;
+    padding: 10px;
+
+}
+
+.initialForm {
+    margin:0 auto;
+    display:block;
+}
+
+.initialBtn {
+    margin:0 auto;
+    display:block;
+}
+
+.goBack {
+    display:flex;
+
+}
+.clear {
+    display:flex;
+    justify-content: center;
+}
+
+ol{
+
+    justify-content: center;
+}
+.btnDiv{
+    display:flex;
+    justify-content: center;
+}
+
+li{
+    display:flex;
+    justify-content: center;
+}
+
+
+h1{
+    display:flex;
+    justify-content: center;
 }
