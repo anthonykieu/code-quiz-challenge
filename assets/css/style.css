@@ -9,3 +9,11 @@
 .responseBlock{
     display:none
 }
+
+.quizQuestionDiv{
+    display:none
+}
+
+button{
+    display:block
+}
