@@ -1,4 +1,4 @@
-# Code Quiz
+# Code Quiz Challenge
 
 ## Description
 The purpose of this project is to gain experience combining HTML, Javascript, and CSS to develop a web apllication.
